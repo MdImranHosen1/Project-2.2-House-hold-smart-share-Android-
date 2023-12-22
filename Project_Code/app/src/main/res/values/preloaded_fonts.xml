@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abel</item>
+        <item>@font/aclonica</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/aladin</item>
+        <item>@font/alef</item>
+        <item>@font/alice</item>
+        <item>@font/amiri</item>
+        <item>@font/asset</item>
+        <item>@font/athiti_light</item>
+        <item>@font/cantora_one</item>
+        <item>@font/castoro</item>
+        <item>@font/changa_light</item>
+    </array>
+</resources>

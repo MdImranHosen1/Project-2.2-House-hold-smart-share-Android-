@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.myapplication.ui.profile.UpdateProfileFragment"
+        android:label="@string/update_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.example.myapplication.ui.SearchLocation.SearchLocationFragment"
+        android:label="Search by location"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/nav_profile_details"
+        android:name="com.example.myapplication.ProfileViewFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_detaile" />
+    <fragment
+        android:id="@+id/nav_newProducts"
+        android:name="com.example.myapplication.UploadProductFragment"
+        android:label="Upload Product"
+        tools:layout="@layout/fragment_new_products" />
+    <fragment
+        android:id="@+id/nav_myOrder"
+        android:name="com.example.myapplication.MyUploadedFragment"
+        android:label="@string/my_orders"
+        tools:layout="@layout/fragment_my_order" />
+    <fragment
+        android:id="@+id/nav_myCarts"
+        android:name="com.example.myapplication.MyOrderFragment"
+        android:label="@string/my_carts"
+        tools:layout="@layout/fragment_my_carts" />
+    <fragment
+        android:id="@+id/nav_myAbout"
+        android:name="com.example.myapplication.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_myProductRequest"
+        android:name="com.example.myapplication.MyProductRequestFragment"
+        android:label="fragment_my_product_request"
+        tools:layout="@layout/fragment_my_product_request" />
+</navigation>

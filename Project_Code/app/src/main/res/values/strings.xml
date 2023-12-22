@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="profile">Profile</string>
+    <string name="category">Category</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="offers">Offers</string>
+    <string name="new_products">New Products</string>
+    <string name="my_orders">My Orders</string>
+    <string name="my_carts">My Carts</string>
+    <string name="description">In descriptive writing, the author does not just tell the reader what was seen, felt, tested, smelled, or heard. Rather, the author describes something from their own experience and, through careful choice of words and phrasing, makes it seem real.</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="profileImgLink"><![CDATA[https://firebasestorage.googleapis.com/v0/b/my-application2-7ef09.appspot.com/o/man.png?alt=media&token=41e1e86f-2b8b-4227-8411-a825b876442d]]></string>
+
+</resources>

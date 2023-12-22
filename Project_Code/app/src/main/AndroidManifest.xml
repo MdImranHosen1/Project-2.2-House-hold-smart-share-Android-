@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+    <!-- internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/network"
+        android:label="House Hold Smart Share"
+        android:roundIcon="@drawable/network"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity
+            android:name=".activitices.nav_create_account_messegeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitices.NavCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitices.PlacedOrderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitices.DetailedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitices.ViewAllActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitices.HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitices.registrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activitices.loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
